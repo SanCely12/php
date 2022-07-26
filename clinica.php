@@ -32,9 +32,8 @@ $aPacientes [] = array (
     "edad" => 53,
     "peso" => 62,
 );
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
