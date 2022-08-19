@@ -4,9 +4,9 @@ ini_set('display_starup_errors',1);
 error_reporting(E_ALL);
 date_default_timezone_set("America/Bogota");
 
-$aNombre = "Sandra Carolina Cely";
+$aNombre = "Sandra Carolina Cely Barrientos";
 $aEdad = "26";
-$aPeliculas = ("Harry potter, Vengadores");
+$aPeliculas = ("HP, Vengadores");
 ?>
 
 <!DOCTYPE html>
@@ -38,12 +38,13 @@ $aPeliculas = ("Harry potter, Vengadores");
                     <td> <?php echo $aNombre; ?> </td>
                 </tr>
                 <tr>
-                    <th> <?php echo $aEdad; ?> </th>
+                    <th>Edad:</th>
                     <td>26</td>
                 </tr>
                 <tr>
                     <th>Peliculas favoritas</th>
-                    <td> <?php echo $aPeliculas[0]; ?> <br>
+                    <td>
+                     Harry Potter<br>
                      Vengadores <br>
                     </td>
                 </tr>

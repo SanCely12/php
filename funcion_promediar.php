@@ -9,7 +9,6 @@ foreach ($aNumeros as $aNumeros) {
 $suma += $aNumeros;
 
 }
-return $suma/ count($aNumeros);
 
 }
 
