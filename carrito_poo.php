@@ -130,26 +130,26 @@ class Carrito{
 
 //Programa
 $cliente1 = new Cliente();
-$cliente1->dni = "34765456";
-$cliente1->nombre = "Alejandra";
+$cliente1->dni = "101584795";
+$cliente1->nombre = "Carolina";
 $cliente1->correo = "alejandra@gmail.com";
 $cliente1->telefono = "+573101231216";
 $cliente1->descuento = 0.03;
 //$cliente1->imprimir();
 
 $producto1 = new Producto();
-$producto1->cod = "AB8767";
-$producto1->nombre = "Notebook 15\" HP";
+$producto1->cod = "Cd4857";
+$producto1->nombre = "Computador portatil 15\" HP";
 $producto1->descripcion = "Esta es una computadora HP";
-$producto1->precio = 30800;
+$producto1->precio = 1300000;
 $producto1->iva = 21;
 //$producto1->imprimir();
 
 $producto2 = new Producto();
-$producto2->cod = "JBGH678";
-$producto2->nombre = "TV Samsung 42\"";
+$producto2->cod = "Cd4867";
+$producto2->nombre = "Televisor Samsung 32\"";
 $producto2->descripcion = "Televisor HD";
-$producto2->precio = 60800;
+$producto2->precio = 900000;
 $producto2->iva = 10.5;
 //$producto2->imprimir();
 
@@ -164,7 +164,7 @@ $carrito->cargarProducto($producto2);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECO MARKET</title>
+    <title>MARKET KATRONIK</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
